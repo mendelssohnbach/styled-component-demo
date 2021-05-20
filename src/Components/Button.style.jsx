@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import StyledButton from './Button';
 
-export const Button = styled.button`
+export const Button = styled(StyledButton)`
   width: 200px;
   height: 50px;
   background-color: ${(props) => props.backgroundColor};
