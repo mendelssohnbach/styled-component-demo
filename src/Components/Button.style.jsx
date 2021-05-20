@@ -6,4 +6,11 @@ export const Button = styled.button`
   background-color: ${(props) => props.backgroundColor};
   color: white;
   font-weight: bold;
+
+  &:hover {
+    background-color: coral;
+  }
+  &:active {
+    background-color: #ff7528;
+  }
 `;
