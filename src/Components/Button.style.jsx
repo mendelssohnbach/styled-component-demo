@@ -9,8 +9,16 @@ export const Button = styled.button`
 
   &:hover {
     background-color: coral;
+    & label {
+      color: green;
+    }
   }
   &:active {
     background-color: #ff7528;
   }
+`;
+
+export const ButtonLabel = styled.label`
+  font-size: 25px;
+  color: white;
 `;
